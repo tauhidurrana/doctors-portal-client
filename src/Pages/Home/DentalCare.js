@@ -1,6 +1,7 @@
 import React from 'react';
-import treatment from './../assets/images/treatment.png';
-import MainButton from './Shared/MainButton';
+import MainButton from '../Shared/MainButton';
+import treatment from './../../assets/images/treatment.png';
+
 const DentalCare = () => {
     return (
         <div class="hero min-h-screen bg-white px-16">

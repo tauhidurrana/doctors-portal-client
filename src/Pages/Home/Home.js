@@ -1,9 +1,9 @@
 import React from 'react';
-import DentalCare from '../DentalCare';
-import MakeAppointment from '../MakeAppointment';
-import Services from '../Services';
 import Banner from './Banner';
+import DentalCare from './DentalCare';
 import Info from './Info';
+import MakeAppointment from './MakeAppointment';
+import Services from './Services';
 
 
 const Home = () => {

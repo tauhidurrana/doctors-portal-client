@@ -1,7 +1,8 @@
 import React from 'react';
-import doctor from './../assets/images/doctor.png'
-import appointment from './../assets/images/appointment.png';
-import MainButton from './Shared/MainButton';
+import doctor from './../../assets/images/doctor.png';
+import appointment from './../../assets/images/appointment.png';
+import MainButton from '../Shared/MainButton';
+
 
 const MakeAppointment = () => {
     return (
