@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
                 <a class="btn btn-ghost normal-case text-xl">Doctors Portal</a>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/appointment">Appintment</Link></li>
