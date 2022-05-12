@@ -2,14 +2,14 @@ import React from 'react';
 
 const Review = ({ review }) => {
     return (
-        <div class="card max-w-lg bg-base-100 shadow-xl">
-            <div class="card-body">
+        <div className="card max-w-lg bg-base-100 shadow-xl">
+            <div className="card-body">
                 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum aspernatur, veritatis est vero error quam nesciunt? Doloribus, modi eligendi</p>
 
                 <div className='flex items-center mt-6'>
-                    <div class="avatar mr-4">
-                        <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                    <div className="avatar mr-4">
+                        <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src="https://api.lorem.space/image/face?hash=3174" />
                         </div>
                     </div>
