@@ -15,7 +15,7 @@ const Service = ({ service, setTreatment }) => {
                 </p>
                 <p className='text-center uppercase'>{slots.length} {slots.length>1 ? 'spaces' : 'space'} available</p>
                 <div class="card-actions justify-center">
-                    <label for="booking-modal" 
+                    <label htmlFor="booking-modal" 
                     disabled={slots.length ===0} 
                     onClick={() => setTreatment(service)}
                     class="btn btn-primary text-white font-bold bg-gradient-to-r from-secondary to-primary">Book Appointment</label>

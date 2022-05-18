@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, useLocation, useNavigate} from 'react-router-dom';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
@@ -34,6 +34,7 @@ const Login = () => {
     if( loading || gLoading){
         return <Loading></Loading>
     }
+
     // if user login redirect to require page
     if(user ||gUser){
         navigate(from, { replace: true });
