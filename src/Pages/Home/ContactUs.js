@@ -13,9 +13,9 @@ const ContactUs = () => {
             </div>
 
             <div className='flex flex-col items-center'>
-                <input type="email" placeholder="Email Address" className="input w-full max-w-xs" />
-                <input type="text" placeholder="Subject" className="input w-full max-w-xs" />
-                <textarea className="textarea input w-full max-w-xs" placeholder="Your Messegae"></textarea>
+                <input type="email" placeholder="Email Address" className="input w-full max-w-xs mb-5" />
+                <input type="text" placeholder="Subject" className="input w-full max-w-xs mb-5" />
+                <textarea className="textarea input w-full max-w-xs mb-5" placeholder="Your Messegae"></textarea>
                 <MainButton>Submit</MainButton>
             </div>
         </section>
